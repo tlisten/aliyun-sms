@@ -8,10 +8,10 @@ Aliyun SMS Sending
 ```php
 'aliyun'=>array(
         'sms'=>array(
-            'accessKeyid'=>'LTAIPgj8l9nud21E',        //AccessKeyId  https://ak-console.aliyun.com/
-            'accessKeySecre'=>'SFPnq0PPsgrJ2HyYb2Uw2GS9KO1mTz',     //AccessKeySecret  https://ak-console.aliyun.com/
-            'SignName'=>'阿里云短信测试专用',           //必填，设置签名名称，应严格按"签名名称"填写，请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/sign
-            'TemplateCode'=>'SMS_140850036',       //必填，设置模板CODE，应严格按"模板CODE"填写, 请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/template
+            'accessKeyid'=>'',        //AccessKeyId  https://ak-console.aliyun.com/
+            'accessKeySecre'=>'',     //AccessKeySecret  https://ak-console.aliyun.com/
+            'SignName'=>'',           //必填，设置签名名称，应严格按"签名名称"填写，请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/sign
+            'TemplateCode'=>'',       //必填，设置模板CODE，应严格按"模板CODE"填写, 请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/template
             'OutId'=>'',                // 可选，设置流水号
             'SmsUpExtendCode'=>''     // 选填，上行短信扩展码（扩展码字段控制在7位或以下，无特殊需求用户请忽略此字段）
         )
