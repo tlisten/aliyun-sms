@@ -1,6 +1,6 @@
 {
   "name": "tlisten/aliyun-sms",
-  "description": "Aliyun SMS Sending",
+  "description": "Aliyun SMS Sending/Yii2中支持阿里云短信发送API",
   "keywords": [
     "yii2",
     "AliyunSMS",
